@@ -55,14 +55,7 @@
   border-bottom: 2px solid var(--branco);
 }
 
-/* .container {
-  position: relative;
-  background-color: var(--cinza);
-  width: 100vw;
-  min-height: 95vh;
-  margin: 0 auto;
-  
-} */
+
 
 #home {
   width: 100%;
@@ -403,6 +396,14 @@
   font-size: -webkit-xxx-large;
   font-weight: 900;
   mix-blend-mode: color-dodge;
+}
+
+@media screen and (max-width: 500px) {
+  .a-second-title{
+    
+    font-size: 28px;
+    
+  }
 }
 
 canvas {
